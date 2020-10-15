@@ -3,13 +3,20 @@
 
 int main()
 {
-   char name[20];
-   int Age;
+  int age;
+  char name[20];
+
+
 
     printf("Welcome to Hacktoberfest 2020\n");
-    printf("Enter your name : ");
-    printf("Enter your age : ");
-    printf("Enter your age : ");
+
+    printf("\t\n Enter your name :");
+    scanf("%s",name);
+
+    printf("\t\n Enter your age : ");
+    scanf("%d",age);
+
+
 
     return 0;
 
